@@ -7,7 +7,7 @@ import {
     ChevronRight,
     ChevronDown,
     ChevronUp,
-    Command,
+    Bell,
     CreditCard,
     File,
     FileText,
@@ -63,6 +63,7 @@ import type { Icon as LucideIcon } from "lucide-react"
 export type Icon = LucideIcon
 
 export const Icons = {
+    bell: Bell,
     sortAsc: SortAsc,
     sortDesc: SortDesc,
     fangs: GiFangs,
